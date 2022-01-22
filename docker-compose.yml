@@ -18,7 +18,7 @@ services:
     container_name: fin_api
     restart: always
     ports:
-      - 4444:4444
+      - 3333:3333
     volumes:
       - .:/usr/app
     links:
